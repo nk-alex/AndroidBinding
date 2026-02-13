@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsTrimmable>true</IsTrimmable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<NLIGradleProjectReference Include="../AndroidProject">
+			<ModuleName>stripeandroidsource</ModuleName>
+		</NLIGradleProjectReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui.NativeLibraryInterop.BuildTasks" Version="0.0.1-pre1" />
+	</ItemGroup>
+</Project>

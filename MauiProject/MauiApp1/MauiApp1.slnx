@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../../BindingProject/StripeBinding.csproj" />
+  <Project Path="MauiApp1.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
